@@ -21,3 +21,5 @@ USB 2.0 full-speed
 CAN
 
 https://os.mbed.com/platforms/ST-Nucleo-F103RB/
+
+cargo install probe-rs-tools --git https://github.com/probe-rs/probe-rs --locked
