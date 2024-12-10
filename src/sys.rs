@@ -6,6 +6,7 @@ use core::panic::PanicInfo;
 fn panic(_info: &PanicInfo) -> ! {
     loop {
         // Optionally add a way to debug or signal the panic (e.g., LED blink).
+        debug::report_exception(debug::Exception::RunTimeErrorUnknown);
     }
 }
 
